@@ -14,18 +14,12 @@ const HeaderWrapper = styled.div`
     height: 100px;
   }
 
-  .contactMe,
-  .navIcons {
+  .contactMe {
     flex: 1;
   }
 
   .navIcons {
     text-align: right;
-  }
-
-  .contactMe a, .contactMe img {
-    vertical-align: middle;
-    line-height: 1.5rem;
   }
 
   .navIcons a {
@@ -35,6 +29,7 @@ const HeaderWrapper = styled.div`
 
   .navIcons a {
     margin-left: 40px;
+    margin-top: 27px;
   }
 
   .contactMe a {
@@ -43,7 +38,10 @@ const HeaderWrapper = styled.div`
   }
 
   .contactMe img {
+    display: inline-block;
+    vertical-align: middle;
     margin-right: 10px;
+    margin-top: 27px;
   }
 `
 
