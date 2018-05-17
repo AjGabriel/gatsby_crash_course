@@ -5,49 +5,8 @@ import youtubeGray from '../images/Youtube_Gray.png'
 import beGray from '../images/Be_Gray.png'
 import dribGray from '../images/Dribbble_Gray.png'
 
-import styled from 'styled-components'
-
-const HeaderWrapper = styled.div`
-  .nav {
-    display: flex;
-    align-items: center;
-    height: 100px;
-  }
-
-  .contactMe {
-    flex: 1;
-  }
-
-  .navIcons {
-    text-align: right;
-  }
-
-  .navIcons a {
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  .navIcons a {
-    margin-left: 40px;
-    margin-top: 27px;
-  }
-
-  .contactMe a {
-    color: #027bff;
-    text-decoration: none;
-  }
-
-  .contactMe img {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
-    margin-top: 27px;
-  }
-`
-
-
 const Header = ({ siteTitle }) => (
-  <HeaderWrapper>
+  <div>
           <div className="nav">
             <div className="contactMe">
               <a href="#">
@@ -67,7 +26,7 @@ const Header = ({ siteTitle }) => (
             </div>
           </div>
 
-  </HeaderWrapper>
+  </div>
 )
 
 export default Header

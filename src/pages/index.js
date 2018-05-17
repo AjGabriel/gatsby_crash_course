@@ -9,81 +9,8 @@ import outlook from '../images/outlook.png'
 import word from '../images/word.png'
 import access from '../images/access.png'
 
-import styled from 'styled-components'
-
-const LandingWrapper = styled.div`
-  h1 {
-    font-size: 40px;
-    font-weight: 400;
-    color: #17191a;
-  }
-
-  h2 {
-    font-size: 35px;
-    font-weight: 400;
-    color: #17191a;
-  }
-
-  h5 {
-    font-size: 20px;
-    font-weight: 400;
-    color: #17191a;
-  }
-
-  p {
-    color: #8f9ea5;
-    opacity: 0.8;
-    font-weight: 100;
-    margin-top: 10px;
-    font-size: 20px;
-  }
-
-  .landing {
-    height: 100vh;
-    position: relative;
-  }
-
-  .landingWrapper {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-  }
-
-  ul {
-    list-style: none;
-    margin-top: 30px;
-    line-height: 30px;
-  }
-
-  .landingL {
-    margin-top: 4em;
-  }
-
-  .scroll {
-    position: absolute;
-    bottom: 100px;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-
-  .skills {
-    text-align: center;
-    margin-bottom: 20em;
-  }
-
-  .skills p {
-    margin-bottom: 30px;
-  }
-
-  .skills img {
-    width: 40px;
-    margin: 0 15px;
-  }
-`
-
 const IndexPage = () => (
-  <LandingWrapper>
+  <div>
     <div className="landing">
       <div className="landingWrapper">
         <div className="landingL">
@@ -127,7 +54,7 @@ const IndexPage = () => (
         <img src={access} alt="Ae icon" />
       </div>
     </div>
-  </LandingWrapper>
+  </div>
 
   
 )
